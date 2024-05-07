@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 30vw;
+  background-color: pink;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signinInput {
+  margin-top: 2vw;
+  height: 3vw;
+  width: 23vw;
+}
+
+#signInbtn {
+  height: 2.5vw;
+  width: 8vw;
+  background-color: green;
+  color: #fff;
+  margin-top: 3vw;
+  font-size: 1.5vw;
+}
+.logpageBtn {
+  height: 2.5vw;
+  width: 8vw;
+  background-color: red;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 3vw;
+  font-size: 1.5vw;
+}
+.logpageBtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* // log in page // */
+
+.loginInput {
+  margin-top: 2vw;
+  height: 3vw;
+  width: 23vw;
+}
+
+#logInbtn {
+  height: 2.5vw;
+  width: 8vw;
+  background-color: green;
+  color: #fff;
+  margin-top: 3vw;
+  font-size: 1.5vw;
+}
+
+
+/* // home page// */
+ .navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+    .navcontent {
+      display: flex;
+    }
